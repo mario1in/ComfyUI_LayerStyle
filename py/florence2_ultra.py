@@ -7,6 +7,8 @@ from transformers.dynamic_module_utils import get_imports
 import comfy.model_management
 from .imagefunc import *
 
+import folder_paths
+
 colormap = ['blue', 'orange', 'green', 'purple', 'brown', 'pink', 'gray', 'olive', 'cyan', 'red',
             'lime', 'indigo', 'violet', 'aqua', 'magenta', 'coral', 'gold', 'tan', 'skyblue']
 
